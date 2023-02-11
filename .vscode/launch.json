@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "p:/LearnMultithreading",
-      "program": "p:/LearnMultithreading/build/Debug/outDebug",
+      "cwd": "p:/LearnMultithreading/.vscode",
+      "program": "p:/LearnMultithreading/.vscode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
