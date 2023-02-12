@@ -7,7 +7,6 @@ void work(int &count, std::mutex &mtx)
 {
     for (size_t i = 0; i < 1E6; i++)
     {
-        // std::lock_guard<std::mutex> guard(mtx);
         std::unique_lock<std::mutex> guard(mtx);
         ++count;
     }
